@@ -1,6 +1,7 @@
 /*
  * composite.c - infrastructure for Composite USB Gadgets
  *
+ *
  * Copyright (C) 2006-2008 David Brownell
  *
  * This program is free software; you can redistribute it and/or modify
