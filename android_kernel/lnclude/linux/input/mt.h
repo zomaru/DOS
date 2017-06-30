@@ -123,3 +123,4 @@ int input_mt_assign_slots(struct input_dev *dev, int *slots,
 int input_mt_get_slot_by_key(struct input_dev *dev, int key);
 
 #endif
+
