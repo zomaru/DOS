@@ -74,3 +74,4 @@ static inline int ima_inode_removexattr(struct dentry *dentry,
 }
 #endif /* CONFIG_IMA_APPRAISE */
 #endif /* _LINUX_IMA_H */
+
