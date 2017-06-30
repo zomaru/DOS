@@ -30,3 +30,4 @@ struct mpu3050_gyro_platform_data {
 };
 
 #endif /* __MPU3050_H__ */
+
