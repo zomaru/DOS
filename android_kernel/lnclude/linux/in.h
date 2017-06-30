@@ -102,3 +102,4 @@ static inline bool ipv4_is_test_198(__be32 addr)
 	return (addr & htonl(0xfffe0000)) == htonl(0xc6120000);
 }
 #endif	/* _LINUX_IN_H */
+
