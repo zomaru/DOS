@@ -1,6 +1,8 @@
 recovery.img = TWRP
-flash twrp dari command prompt
-fastboot flash recovery recovery.img
+
+untuk flash twrp dari command prompt ketik perintah
+
+fastboot flash recovery recovery.img lalu tekan enter
 
 untuk masuk ke twrp setelah dipasang, tekan dan tahan tombol power dan volume atas secara bersamaan.
 
