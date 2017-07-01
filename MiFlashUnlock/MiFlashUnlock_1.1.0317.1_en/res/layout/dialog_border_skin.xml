@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window name="border_window" type="border_window" backgroundimage="bro_frame_border.png" translucent="true" alphaborders="500,500,500,500">
+  <HorizontalLayout name="bg" left="35" top="30" right="35" bottom="41" align="near">
+  </HorizontalLayout>
+</window>

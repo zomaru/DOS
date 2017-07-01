@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<windowless>
+  <Layout left="0" right="0" top="0" bottom="0" >
+    <VerticalLayout name="unlock_rights_check.view" left="0" right="0" top="0" bottom="0" >
+      <PlaceHolder height="117"/>
+      <HorizontalLayout name="unlock_rights_check.user_icon" height="72" width="72" align="center" backgroundimage="default_user_icon.png" backgroundtransparent="true">
+        <Control backgroundimage="user_icon_frame.png" height="72" width="72" backgroundtransparent="true" />
+      </HorizontalLayout>
+      <Label name="unlock_rights_check.user_nick_name" height="34" font="14" textcolor="#888888" backgroundtransparent="true" align="center,venter"/>
+      <PlaceHolder height="40"/>
+      <VerticalLayout height="72">
+        <Label text="@string/unlock_rights_checking" height="50" font="30" textcolor="#2c333a" backgroundtransparent="true" align="center,venter"/>
+        <PlaceHolder height="5"/>
+        <Control name="unlock_rights_check.check_progress_1" backgroundimage="progress_bar_1.png"  height="8" width="310" left="250" backgroundtransparent="true" visbile="false"/>
+        <Control name="unlock_rights_check.check_progress_2" backgroundimage="progress_bar_2.png"  height="8" width="310" left="250" backgroundtransparent="true" visbile="false"/>
+        <Control name="unlock_rights_check.check_progress_3" backgroundimage="progress_bar_3.png"  height="8" width="310" left="250" backgroundtransparent="true" visbile="false"/>
+        <Control name="unlock_rights_check.check_progress_4" backgroundimage="progress_bar_4.png"  height="8" width="310" left="250" backgroundtransparent="true" visbile="false"/>
+        <Control name="unlock_rights_check.check_progress_5" backgroundimage="progress_bar_5.png"  height="8" width="310" left="250" backgroundtransparent="true" visbile="false"/>
+        <Control name="unlock_rights_check.check_progress_6" backgroundimage="progress_bar_6.png"  height="8" width="310" left="250" backgroundtransparent="true" visbile="false"/>
+      </VerticalLayout>
+      <PlaceHolder/>
+    </VerticalLayout>
+  </Layout>
+</windowless>

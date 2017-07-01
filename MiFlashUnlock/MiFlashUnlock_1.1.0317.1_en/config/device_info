@@ -1,0 +1,145 @@
+{
+    "version": "2015091201",
+    "devices": [
+        {
+            "display_name": "红米2移动版",
+            "name": "wt86047",
+            "product": "^(wt86047)|(msm8916)$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "红米2联通/电信版",
+            "name": "wt88047",
+            "product": "^(wt88047)|(msm8916)$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "红米Note 4G双卡版",
+            "name": "gucci",
+            "product": "^msm8916$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "小米4i",
+            "name": "ferrari",
+            "product": "^msm8916$",
+            "soc_id": "^239$",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "小米1/小米1S",
+            "name": "mione_plus",
+            "product": "^msm8660_surf$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "小米2/小米2S",
+            "name": "aries",
+            "product": "[IGNORE]",
+            "soc_id": "^109$",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "小米2A",
+            "name": "taurus",
+            "product": "[IGNORE]",
+            "soc_id": "^140$",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "小米3移动版",
+            "name": "pisces",
+            "product": "^pisces$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "小米3联通版/电信版",
+            "name": "cancro",
+            "product": "^msm8974$",
+            "soc_id": "[IGNORE]",
+            "board_version": "^3\\..*"
+        },
+        {
+            "display_name": "小米4标准版",
+            "name": "cancro",
+            "product": "^msm8974$",
+            "soc_id": "[IGNORE]",
+            "board_version": "^4\\.[^4].*"
+        },
+        {
+            "display_name": "小米4电信4G版",
+            "name": "cancro_lte_ct",
+            "product": "^msm8974$",
+            "soc_id": "[IGNORE]",
+            "board_version": "^4\\.4.*"
+        },
+        {
+            "display_name": "小米4c全网通版",
+            "name": "libra",
+            "product": "^msm8992$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "红米1s联通版/电信版",
+            "name": "armani",
+            "product": "^msm8226$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "小米平板1",
+            "name": "mocha",
+            "product": "^mocha$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "小米Note标准双网通版",
+            "name": "virgo",
+            "product": "^msm8974$",
+            "soc_id": "[IGNORE]",
+            "board_version": "^5\\.[^5].*"
+        },
+        {
+            "display_name": "小米Note标准全网通版",
+            "name": "virgo_lte_ct",
+            "product": "^msm8974$",
+            "soc_id": "[IGNORE]",
+            "board_version": "^5\\.5.*"
+        },
+        {
+            "display_name": "小米Note顶配双网通/全网通版",
+            "name": "leo",
+            "product": "^msm8994$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "红米Note 2",
+            "name": "hermes",
+            "product": "^(lcsh6795_lwt_l)|(lcsh6795_lwt_cu)$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "红米2A移动版",
+            "name": "lte26007",
+            "product": "^(lte26007)|(wt26047)$",
+            "soc_id": "[IGNORE]",
+            "board_version": "[IGNORE]"
+        },
+        {
+            "display_name": "红米Note移动/联通4G单卡版",
+            "name": "dior",
+            "product": "^msm8226$",
+            "soc_id": "^224$",
+            "board_version": "[IGNORE]"
+        }
+    ]
+}

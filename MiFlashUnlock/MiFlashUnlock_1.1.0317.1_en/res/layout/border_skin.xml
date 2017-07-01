@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window name="border_window" type="border_window" backgroundimage="shadow.png;;20,20,20,20" translucent="true" alphaborders="500,500,500,500">
+	<HorizontalLayout name="bg" left="8" top="6" right="8" bottom="10" align="near">
+	</HorizontalLayout>
+</window>

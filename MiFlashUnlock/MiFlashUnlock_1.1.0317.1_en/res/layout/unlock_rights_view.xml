@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<windowless>
+  <Layout left="0" right="0" top="0" bottom="0" >
+    <VerticalLayout name="unlock_rights.view" left="0" right="0" top="0" bottom="0" >
+      <PlaceHolder height="117"/>
+      <HorizontalLayout name="unlock_rights.user_icon" height="72" width="72" align="center" backgroundimage="default_user_icon.png" backgroundtransparent="true">
+        <Control backgroundimage="user_icon_frame.png" height="72" width="72" backgroundtransparent="true" />
+      </HorizontalLayout>
+
+      <Label name="unlock_rights.user_nick_name" height="34" font="14" textcolor="#888888" backgroundtransparent="true" align="center,venter"/>
+      <PlaceHolder height="40"/>
+      <VerticalLayout name="unlock_rights.rights_error_need_apply" height="160" visible="false">
+        <Label text="@string/unlock_rights_deny" height="40" font="28" textcolor="#2c333a" backgroundtransparent="true" align="center,venter"/>
+        <PlaceHolder height="5"/>
+        <Label height="20" text="@string/unlock_apply_help"  font="14" backgroundtransparent="true"  textcolor="#999999" align="center,venter"/>
+        <PlaceHolder height="20"/>
+        <Button name="unlock_rights.unlock_apply_btn"  text="@string/goto"  height="40" width="180" imagelist="common_btn.png" imagelistuistatus="disable" align="center,venter"/>
+        <PlaceHolder />
+      </VerticalLayout>
+
+      <VerticalLayout name="unlock_rights.exception" height="160" visible="false">
+        <Label name="unlock_rights.err_msg" text="@string/rights_check_fail" height="40" font="28" textcolor="#2c333a" backgroundtransparent="true" align="center,venter"/>
+        <PlaceHolder height="5"/>
+        <Label height="20" text="" font="14" backgroundtransparent="true"  textcolor="#999999" align="center,venter"/>
+        <PlaceHolder height="10"/>
+        <Button name="unlock_rights.retry_check_btn" text="@string/retry"  height="42" width="100" imagelist="common_btn.png" imagelistuistatus="disable" align="center,venter"/>
+        <PlaceHolder />
+      </VerticalLayout>
+      <PlaceHolder/>
+    </VerticalLayout>
+  </Layout>
+</windowless>

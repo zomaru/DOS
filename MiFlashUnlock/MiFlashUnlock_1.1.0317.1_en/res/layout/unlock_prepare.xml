@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<windowless>
+
+  <VerticalLayout name="unlock_prepare.view" left="0" right="0" top="0" bottom="0" >
+    <PlaceHolder height="100"/>
+    <HorizontalLayout left="142" width="585" height="332">
+      <Control name="unlock_prepare.connected_bg" width="148" backgroundimage="usb_connected.png"  backgroundtransparent="true"/>
+      <PlaceHolder width="66"/>
+      <VerticalLayout width="470">
+        <Label name="unlock_prepare.connected_title" text="@string/conx_ok" height="40" font="22" textcolor="#000000" backgroundtransparent="true"
+               align="near,venter"/>
+        <Label name="unlock_prepare.device_name" text="@string/miphone" height="22" font="12" textcolor="#888888" backgroundtransparent="true"
+               align="near,venter" multiline="true"/>
+        <PlaceHolder height="42"/>
+        <Control height="1" backgroundimage="seperate_line.png"  backgroundtransparent="true"/>
+        <PlaceHolder height="35"/>
+        <Label text="@string/unlock_attention" height="40" font="22" textcolor="#000000" backgroundtransparent="true" align="near,venter"/>
+        <PlaceHolder height="8"/>
+        <Label text="@string/unlock_attention_1" height="40" font="12" textcolor="#888888" backgroundtransparent="true" align="near,venter" multiline="true"/>
+        <PlaceHolder height="8"/>
+        <Label text="@string/unlock_attention_2" height="40" font="12" textcolor="#888888" backgroundtransparent="true" align="near,venter" multiline="true"/>
+        <PlaceHolder />
+      </VerticalLayout>
+    </HorizontalLayout>
+    <PlaceHolder height="25"/>
+    <Button name="unlock_prepare.unlock_btn" text="@string/unlock" font="16" height="42" width="180" imagelist="common_btn.png" imagelistuistatus="disable" align="center,venter"/>
+    <PlaceHolder/>
+  </VerticalLayout>
+</windowless>

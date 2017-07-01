@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GlobalRes>
+  <!--
+	<Font name="宋体" size="12" id="12" />
+	<Font name="宋体" size="12" id="bold_12" bold="true" />
+	<Font name="宋体" size="12" id="underline_12" underline="true"/>
+	<Font name="宋体" size="14" id="default" default="true" />
+	<Font name="宋体" size="14" id="bold_14" bold="true" />
+	<Font name="宋体" size="16" id="16" />
+	<Font name="宋体" size="16" id="bold_16" bold="true" />
+	<Font name="宋体" size="16" id="underline_16" underline="true"/>
+	<Font name="宋体" size="18" id="18" />
+	<Font name="宋体" size="18" id="bold_18" bold="true" />
+	<Font name="宋体" size="20" id="20" />
+	<Font name="宋体" size="22" id="22" />
+	<Font name="宋体" size="24" id="24" />
+	<Font name="宋体" size="32" id="32" bold="true" />
+	<Font name="宋体" size="36" id="36" bold="true" />
+	<Font name="宋体" size="46" id="46" />
+	<Font name="宋体" size="48" id="48" />
+	<Font name="宋体" size="48" id="bold_48" bold="true" />
+	<Font name="宋体" size="12" id="songti_12" />
+	<Font name="宋体" size="12" id="songti_bold_12" bold="true"/>
+	<Font name="宋体" size="12" id="songti_underline_12" underline="true"/>
+	<Font name="arial" size="12" id="arial_12" />微软雅黑-->
+
+  <Font name="微软雅黑" size="12" id="12" />
+  <Font name="微软雅黑" size="12" id="bold_12" bold="true" />
+  <Font name="微软雅黑" size="12" id="underline_12" underline="true"/>
+  <Font name="微软雅黑" size="12" id="strikeout_12" strikeout="true"/>
+  <Font name="微软雅黑" size="14" id="default" default="true" />
+  <Font name="微软雅黑" size="14" id="bold_14" bold="true" />
+  <Font name="微软雅黑" size="14" id="underline_14" underline="true" />
+  <Font name="微软雅黑" size="16" id="16" />
+  <Font name="微软雅黑" size="16" id="bold_16" bold="true" />
+  <Font name="微软雅黑" size="16" id="underline_16" underline="true"/>
+  <Font name="微软雅黑" size="18" id="18" />
+  <Font name="微软雅黑" size="18" id="bold_18" bold="true" />
+  <Font name="微软雅黑" size="20" id="20" />
+  <Font name="微软雅黑" size="22" id="22" />
+  <Font name="微软雅黑" size="22" id="bold_22" bold="true" />
+  <Font name="微软雅黑" size="24" id="24" />
+  <Font name="微软雅黑" size="24" id="bold_24" bold="true" />
+  <Font name="微软雅黑" size="28" id="28" />
+  <Font name="微软雅黑" size="30" id="30" />
+  <Font name="微软雅黑" size="32" id="bold_32" bold="true" />
+  <Font name="微软雅黑" size="36" id="36" bold="true" />
+  <Font name="微软雅黑" size="46" id="46" />
+  <Font name="微软雅黑" size="48" id="48" />
+  <Font name="微软雅黑" size="48" id="bold_48" bold="true" />
+  <Font name="微软雅黑" size="68" id="68" />
+  <Font name="微软雅黑" size="12" id="songti_12" />
+  <Font name="微软雅黑" size="12" id="songti_underline_12" underline="true"/>
+  <Font name="微软雅黑" size="12" id="songti_bold_12" bold="true"/>
+  <Font name="arial" size="12" id="arial_12" />
+  <Font name="arial" size="16" id="arial_blod_16" bold="true"/>
+
+  <Default name="VScrollBar" value="thumbnormalimage='scroll_bar.png;;0,4,0,4' width='8' horizontal='false'" />
+  <Default name="HScrollBar" value="thumbnormalimage='scroll_bar.png;;0,4,0,4' height='8' horizontal='true'" />
+</GlobalRes>
+<window name="main_wnd" type="window" size="820,560" mainwindow="true" translucent="true" alphaborders="5,0,5,10">
+  <Layout name="bg" left="0" top="0" width="820" height="560" align="near, venter" backgroundtransparent="true" backgroundimage="bg.png;;10,100,10,10" padding="1,1,1,1">
+    <Title left="0" right="0" top="0" bottom="0">
+    </Title>
+    <HorizontalLayout name="top_bar" left="0" top="6" height="29" width="820" align="center, venter">
+      <PlaceHolder width="28"/>
+      <Control width="20" height="13" backgroundimage="mi.png" backgroundtransparent="true"  align="center,venter"/>
+      <PlaceHolder width="2"/>
+      <Label text="@string/app_name" autosize="true" font="14" align="near,venter" textcolor="#888888"/>
+      <Label name="app_cur_version" text="" autosize="true" font="14" align="near,venter" textcolor="#888888"/>
+      <PlaceHolder />
+      <HorizontalLayout name="skin_account_info" width="200" visible="false">
+        <PlaceHolder />
+        <Label name="skin_account_user_id" text="" font="14" textcolor="#888888" width="70" autosize="true" align="far,venter" backgroundtransparent="true" />
+        <PlaceHolder width="10"/>
+        <Control width="1" backgroundimage="I.png" height="15" backgroundtransparent="true" align="center,venter"/>
+        <PlaceHolder width="10"/>
+        <Button name="skin_account_logout_btn" text="@string/logout" width="43" font="underline_14" textcolor="#888888" align="near,venter" autosize="true" backgroundtransparent="true"/>
+      </HorizontalLayout>
+      <PlaceHolder width="40"/>
+      <Button name="min_box" width="11" height="11" imagelist="min.png" backgroundtransparent="true" />
+      <PlaceHolder width="13"/>
+      <Button name="close_box" width="11" height="11" imagelist="close.png" backgroundtransparent="true" />
+      <PlaceHolder width="16" />
+    </HorizontalLayout>
+
+    <Layout name="main_client" left="0" top="0" width="820" height="560" visible="true">
+    </Layout>
+    <HorizontalLayout name="status_bar" left="0" top="29,false" right="0" bottom="0">
+      <PlaceHolder />
+      <Button name="app_new_version" autosize="true" font="underline_12" align="near,venter" textcolor="#0000ff" backgroundtransparent="true" visible="false"/>
+      <Label name="version_info" text="" font="12" textcolor="#999999" align="left, venter" autosize="true" />
+      <PlaceHolder width="10" />
+    </HorizontalLayout>
+    <!--  -->
+  </Layout>
+</window>

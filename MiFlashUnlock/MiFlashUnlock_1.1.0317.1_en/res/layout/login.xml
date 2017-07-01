@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<windowless>
+  <HorizontalLayout name="login.view" left="0" right="0" top="0" bottom="0" >
+    <!--SPACE | MIUI-LOGO | SPACE | OTHER-->
+    <PlaceHolder width="122"/>
+    <VerticalLayout width="209">
+      <PlaceHolder height="147"/>
+      <Control height="267" backgroundimage="login.png" backgroundtransparent="true"/>
+      <PlaceHolder />
+    </VerticalLayout>
+    <PlaceHolder width="29"/>
+    <VerticalLayout width="450">
+      <PlaceHolder height="145"/>
+      <Label height="36" text="@string/login_title" font="22" textcolor="#000000"/>
+      <Label height="25" text="@string/login_subtitle" font="14" textcolor="#ff4a41"/>
+      <VerticalLayout name="login.error_msg_layout" height="40" visible="true" >
+        <PlaceHolder/>
+        <Label name="login.error_msg_label" font="12" height="30"  backgroundtransparent="true" text="" textcolor="#ff4a41" align="near,venter" />
+      </VerticalLayout>
+
+      <HorizontalLayout>
+        <VerticalLayout width="262">
+          <VerticalLayout height="82" backgroundimage="two_lines_edit_bg.png" backgroundtransparent="true">
+            <PlaceHolder height="5"/>
+            <RichEdit name="login.account_id_input" text="" font="14" height="31" backgroundtransparent="true" placestring="@string/login_user_tips" placetextcolor="#888888"
+                      multiline="false" textlimit="40" wanttab="false" wantreturn="false" autohscroll="false" align="venter"/>
+            <PlaceHolder height="10"/>
+            <RichEdit name="login.account_pwd_input" text="" font="14" height="31" backgroundtransparent="true" placestring="@string/login_pwd_tips" placetextcolor="#888888" password="true"
+                      multiline="false" textlimit="40" wanttab="false" wantreturn="false" autohscroll="false"/>
+            <PlaceHolder height="5"/>
+          </VerticalLayout>
+
+          <VerticalLayout name="login.account_dynamic_code_layout" height="35" visible="false" >
+            <PlaceHolder height="5"/>
+            <RichEdit name="login.account_dynamic_code_input_box" font="14" height="30"  backgroundtransparent="true" placestring="@string/login_secure_token_tips" placetextcolor="#8d8d8d"
+                      backgroundimage="single_line_edit_bg.png" align="near,venter" text=""
+                      multiline="false" textlimit="6" wanttab="false" wantreturn="false" autohscroll="false" />
+          </VerticalLayout>
+
+          <VerticalLayout name="login.account_verify_code_layout" height="47" visible="false" >
+            <PlaceHolder height="5"/>
+            <HorizontalLayout height="42">
+              <VerticalLayout width="162" backgroundimage="single_line_edit_bg.png" backgroundtransparent="true">
+                <PlaceHolder height="5"/>
+                <RichEdit name="login.account_verify_code_input" height="32" font="14"  backgroundtransparent="true" placestring="@string/login_input_verify_code_tips" placetextcolor="#888888"
+                        align="near,venter" text="" multiline="false" textlimit="40" wanttab="false" wantreturn="false" autohscroll="false" />
+                <PlaceHolder height="5"/>
+              </VerticalLayout>
+
+              <PlaceHolder width="10"/>
+              <Button name="login.account_verify_code_picture" backgroundtransparent="true" />
+            </HorizontalLayout>
+          </VerticalLayout>
+
+          <PlaceHolder height="15"/>
+          <Layout height="42">
+            <Button name="login.login_btn" left="0" right="0" top="0" bottom="0" font="14" text="@string/login" textcolor="#ffffff" imagelist="green_btn_list.png" imagelistuistatus="disable" backgroundtransparent="true"/>
+          </Layout>
+          <PlaceHolder height="10"/>
+          <HorizontalLayout height="20">
+            <PlaceHolder/>
+            <Button name="login.reg_account_btn" text="@string/account_register" width="70" font="14" textcolor="#999999" align="left,venter" autosize="true" backgroundtransparent="true"/>
+            <PlaceHolder width="5"/>
+            <Control width="1" backgroundimage="I.png" height="15" backgroundtransparent="true" align="center,venter"/>
+            <PlaceHolder width="5"/>
+            <Button name="login.forget_pwd_btn" text="@string/account_forget" width="70" font="14" textcolor="#999999" align="left,venter" autosize="true" backgroundtransparent="true"/>
+          </HorizontalLayout>
+        </VerticalLayout>
+        <PlaceHolder/>
+      </HorizontalLayout>
+    </VerticalLayout>
+  </HorizontalLayout>
+</windowless>

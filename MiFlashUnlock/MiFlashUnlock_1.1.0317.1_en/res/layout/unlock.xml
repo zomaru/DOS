@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<windowless>
+  <VerticalLayout name="unlock.view" left="0" right="0" top="0" bottom="0" >
+    <PlaceHolder height="100"/>
+    <Layout name="unlock.percent_layout" width="180" height="130" align="center,venter" visible="false">
+      <Label name="unlock.percent_value" text="36" font="68" textcolor="#4b8d0e" width="150" height="75" align="far,venter" />
+      <Label text="%" font="28" textcolor="#4b8d0e" top="0" left="125" width="32" height="32" align="near,venter"/>
+    </Layout>
+    <VerticalLayout name="unlock.fail_retry_layout" height="130" visible="true">
+      <Label name="unlock.error_msg" text="@string/unlock_fail" font="30" height="40" textcolor="#ef2e25" align="center,venter" />
+      <PlaceHolder height="10" />
+      <Label name="unlock.error_detail_msg" text="" font="16" textcolor="#666666" align="center,venter" />
+      <PlaceHolder height="10" />
+      <Button name="unlock.retry_btn" text="@string/retry" width="100" height="42" imagelist="common_btn.png" imagelistuistatus="disable" backgroundtransparent="true" align="center,venter" />
+    </VerticalLayout>
+    <VerticalLayout name="unlock.success_layout" height="130" visible="false">
+      <Label text="@string/unlock_success" font="28" height="40" textcolor="#008000" align="center,venter" />
+      <PlaceHolder height="20" />
+      <Button name="unlock.reboot_btn" visible="true" text="@string/reboot_phone" width="120" height="38" imagelist="common_btn.png" imagelistuistatus="disable" backgroundtransparent="true" align="center,venter" />
+      <Button name="unlock.again_btn"  visible="false"  text="@string/reunlock" width="120" height="32" imagelist="common_btn.png" imagelistuistatus="disable" backgroundtransparent="true" align="center,venter" />
+      <PlaceHolder/>
+    </VerticalLayout>
+    <PlaceHolder height="40"/>
+
+    <VerticalLayout left="60" width="705" height="244">
+      <PlaceHolder height="45"/>
+      <Control height="1" backgroundimage="seperate_line.png"  backgroundtransparent="true"/>
+      <HorizontalLayout height="45">
+        <Label name="unlock.verify_label" text="@string/verifing_device" align="near,venter"/>
+        <ProgressBarCircle name="unlock.verify_status_progress" visible="true" progressimage="wait.png" width="18" height="18" backgroundtransparent="true" align="far,venter" showidchand="false"/>
+        <Control name="unlock.verify_status_ok" visible="true" width="18" height="18" backgroundimage="step_complete.png"  backgroundtransparent="true"  align="far,venter"/>
+        <Control name="unlock.verify_status_err" visible="true"  width="18" height="18" backgroundimage="step_error.png"  backgroundtransparent="true"  align="far,venter"/>
+      </HorizontalLayout>
+      <Control height="1" backgroundimage="seperate_line.png"  backgroundtransparent="true"/>
+      <HorizontalLayout height="45">
+        <Label name="unlock.unlock_label" text="@string/unlocking" align="near,venter"/>
+        <ProgressBarCircle name="unlock.unlock_status_progress" visible="true" progressimage="wait.png" width="18" height="18" backgroundtransparent="true" align="far,venter" showidchand="false"/>
+        <Control name="unlock.unlock_status_ok" visible="true" width="18" height="18" backgroundimage="step_complete.png"  backgroundtransparent="true"  align="far,venter"/>
+        <Control name="unlock.unlock_status_err" visible="true"  width="18" height="18" backgroundimage="step_error.png"  backgroundtransparent="true"  align="far,venter"/>
+      </HorizontalLayout>
+      <Control height="1" backgroundimage="seperate_line.png"  backgroundtransparent="true"/>
+      <HorizontalLayout height="45">
+        <Label name="unlock.reboot_label" text="@string/unlock_finished" align="near,venter"/>
+        <ProgressBarCircle name="unlock.reboot_status_progress" visible="true" progressimage="wait.png" width="18" height="18" backgroundtransparent="true" align="far,venter" showidchand="false"/>
+        <Control name="unlock.reboot_status_ok" visible="true" width="18" height="18" backgroundimage="step_complete.png"  backgroundtransparent="true"  align="far,venter"/>
+        <Control name="unlock.reboot_status_err" visible="true"  width="18" height="18" backgroundimage="step_error.png"  backgroundtransparent="true"  align="far,venter"/>
+      </HorizontalLayout>
+      <Control height="1" backgroundimage="seperate_line.png"  backgroundtransparent="true"/>
+    </VerticalLayout>
+    <PlaceHolder/>
+  </VerticalLayout>
+</windowless>

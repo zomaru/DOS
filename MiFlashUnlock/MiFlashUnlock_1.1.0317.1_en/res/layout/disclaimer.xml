@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<windowless>
+  <VerticalLayout name="disclaimer_view" left="0" right="0" top="0" bottom="0">
+    <PlaceHolder height="22"/>
+    <Label text="@string/license_title" height="82" align="center,venter" font="22" />
+    <RichEdit name="disclaimer.license" backgroundtransparent="true" vscrollbar="true" autovscroll="false" hscrollbar="false"
+              autohscroll="false" wanttab="false" wantreturn="false" wantctrlreturn="false" readonly="true" visible="false" font="14" padding="30,0,15,0"
+              textcolor="#888888" width="700"/>
+    <PlaceHolder height="3"/>
+    <Control height="1" width="760" backgroundimage="seperate_line.png" backgroundtransparent="true" align="center"/>
+    <PlaceHolder height="35"/>
+    <HorizontalLayout width="306" height="44" align="center">
+      <Button name="disclaimer.btn_agree" text="@string/agree" font="14" width="143" imagelist="common_btn.png" backgroundtransparent="true" imagelistuistatus="disable" />
+      <PlaceHolder />
+      <Button name="disclaimer.btn_disagree" text="@string/disagree" font="14" width="143" imagelist="common_btn.png" backgroundtransparent="true" imagelistuistatus="disable" />
+    </HorizontalLayout>
+    <PlaceHolder height="35"/>
+  </VerticalLayout>
+</windowless>
