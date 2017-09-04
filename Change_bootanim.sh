@@ -45,6 +45,6 @@ cd /storage/emulated/0
 echo "Copy bootanimation baru ke /system/media.."
 mv ./bootanimation.zip /system/media
 echo ""
-echo "Pancene kowe pabu, nuruti ibumu jarene rak ninja rak oleh dicinta"
-echo "Opo koyo ngene, susahe wong kere arep nyanding tresno kalah karo bondo"
+echo "Atiku rasane loro, nyawang koe rabi karo wong liyo"
+echo "Nangis getih eluhku, remuk ajur rosoku kowe tego ninggal aku"
 echo "Done, reboot handphone anda dan silahkan nikmati bootloop"
