@@ -1,0 +1,50 @@
+#!/system/bin/sh
+# Script pengganti boot animation secara otomatis
+# Author : Renaldy P <zomaru@github.com>
+# Pastikan simpan file boot animation di penyimpanan internal
+# 
+# This software is licensed under the terms of the GNU General Public
+# License version 2, as published by the Free Software Foundation, and
+# may be copied, distributed, and modified under those terms.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# Please maintain this if you use this script or any part of it
+#
+
+echo "Script pengganti bootanimation secara otomatis"
+echo "visit my blog http://www.zomaru.blogspot.co.id"
+echo "atau langsung ikut berkontribusi ke https://github.com/zomaru"
+echo ""
+echo ""
+echo "Meminta akses SuperASU.. izinkan ya boss!!"
+echo ""
+su
+echo ""
+echo "Mengganti direktori ke /system/media"
+cd /system/media
+echo ""
+echo "Mengubah nama file bootanimation.."
+mv ./bootanimation.zip ./bootanimation.zip.bak
+echo ""
+echo "Mengganti direktori ke penyimpanan internal"
+cd /storage/emulated/0
+mkdir ScriptBAAuto
+cd ScriptBAAuto
+touch Virus.txt
+cat > ./Virus.txt <<EOF
+This file is auto generated from The script that was created by Renaldy P <zomaru@github.com>
+EOF
+chmod 444 ./Virus.txt
+echo "..."
+echo ""
+cd /storage/emulated/0
+echo "Copy bootanimation baru ke /system/media.."
+mv ./bootanimation.zip /system/media
+echo ""
+echo "Pancene kowe pabu, nuruti ibumu jarene rak ninja rak oleh dicinta"
+echo "Opo koyo ngene, susahe wong kere arep nyanding tresno kalah karo bondo"
+echo "Done, reboot handphone anda dan silahkan nikmati bootloop"
