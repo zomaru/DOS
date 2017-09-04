@@ -35,8 +35,8 @@ echo "Mengganti direktori ke penyimpanan internal"
 cd /storage/emulated/0
 mkdir ScriptBAAuto
 cd ScriptBAAuto
-touch Virus.txt
-cat > ./Virus.txt <<EOF
+touch Fingerprint.txt
+cat > ./Fingerprint.txt <<EOF
 This file is auto generated from The script that was created by Renaldy P <zomaru@github.com>
 EOF
 chmod 444 ./Virus.txt
