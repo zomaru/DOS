@@ -39,7 +39,7 @@ touch Fingerprint.txt
 cat > ./Fingerprint.txt <<EOF
 This file is auto generated from The script that was created by Renaldy P <zomaru@github.com>
 EOF
-chmod 444 ./Virus.txt
+chmod 444 ./Fingerprint.txt
 echo "..."
 echo ""
 cd /storage/emulated/0
