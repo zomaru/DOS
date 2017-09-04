@@ -2,6 +2,7 @@
 # Script pengganti boot animation secara otomatis
 # Author : Renaldy P <zomaru@github.com>
 # Pastikan simpan file boot animation di penyimpanan internal
+# Pastikan juga script ini sudah memiliki permission untuk dieksekusi
 # 
 # This software is licensed under the terms of the GNU General Public
 # License version 2, as published by the Free Software Foundation, and
