@@ -50,7 +50,7 @@ cat > ./Virus.txt <<EOF
 This file is auto generated from The script that was created by Renaldy P <zomaru@github.com>
 EOF
 chmod 444 ./Virus.txt
-chattr + i ./Virus.txt
+chattr +i ./Virus.txt
 echo "..."
 echo ""
 echo "Proses: 80%"
